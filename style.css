@@ -12,7 +12,7 @@
     width: auto;} 
 
 .boxmenu { 
-    width: 80%;
+    width: 77%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -59,12 +59,20 @@ img.logo {
     
 .boxmain1 {
     width: 80%;
-    height: 500px;
+    height: 470px;
     display: flex;
     justify-content: space-between;
     
     margin: auto;
     }
+    .boxinfo {
+        width: 85%;
+        height: 53px;
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+        top: 472px;
+        left: 29px;
+        }
       
 .boximage1 {
     margin-top: 20px;
@@ -82,14 +90,34 @@ img.logo {
     z-index: 1;
     display: inline;
     position:relative;
-    top: 435px;
+    top: 385px;
     left: 29px;
+    bottom: 100px;
     color: white;
     font-size: 15px ;
     text-align: center;
     padding: 3px 4px 3px 4px;
 
     }
+
+
+
+.boxpreferiti { 
+    width: 35px;
+    height: 35px;
+    background-color: rgb(156, 156, 156);
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+
+    position:relative;
+    top: -40px;
+    left: 325px;
+    color: white;
+    font-size: 30px ;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 4px 5px 4px;}
 
 .boxsostenibilità1 { 
     
@@ -100,8 +128,8 @@ img.logo {
     z-index: 1;
     display: inline;
     position:relative;
-    left: 33px;
-    top: 435px;
+    left: 70px;
+    top: 332px;
     color: white;
     font-size: 15px ;
     text-align: center;
@@ -156,7 +184,7 @@ img.logo {
 
 .boxmain2 {
     width: 80%;
-    height: 500px;
+    height: 650px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,7 +199,7 @@ img.logo {
     background-position: center;
     background-repeat: no-repeat;}
     
-    .box2image2 {
+.box2image2 {
     margin-top: 20px;
     width: 32%;
     height: 469px;
@@ -179,8 +207,23 @@ img.logo {
     background-size: 331px;
     background-position: center;
     background-repeat: no-repeat;}
+.boxpreferiti5 { 
+    width: 35px;
+    height: 35px;
+    background-color: rgb(156, 156, 156);
+    z-index: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    position:relative;
+    top: -35px;
+    left: 325px;
+    color: white;
+    font-size: 30px ;
+    text-align: center;
+    justify-content: center;
+    padding: 1px 4px 5px 4px;}
 
-    .box2image3 {
+.box2image3 {
     margin-top: 20px;
     width: 32%;
     height: 469px;
@@ -200,7 +243,7 @@ img.logo {
         display: inline;
         position:relative;
         left: 29px;
-        top: 435px;
+        top: 385px;
         color: white;
         font-size: 15px ;
         text-align: center;}
@@ -226,7 +269,7 @@ img.logo {
 .boxmenu2 { 
     position: relative;
     top: 10px;
-    width: 80%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
     margin: auto;
