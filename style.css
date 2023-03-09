@@ -59,7 +59,7 @@ img.logo {
     
 .boxmain1 {
     width: 80%;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     
@@ -75,6 +75,39 @@ img.logo {
     background-position: center;
     background-repeat: no-repeat;
     }
+.boxsconto1 { 
+    width: 30px;
+    height: 15px;
+    background-color: rgb(235, 15, 15);
+    z-index: 1;
+    display: inline;
+    position:relative;
+    top: 435px;
+    left: 29px;
+    color: white;
+    font-size: 15px ;
+    text-align: center;
+    padding: 3px 4px 3px 4px;
+
+    }
+
+.boxsostenibilità1 { 
+    
+    padding: 3px 4px 3px 4px;
+    width: 90px;
+    height: 15px;
+    background-color: green;
+    z-index: 1;
+    display: inline;
+    position:relative;
+    left: 33px;
+    top: 435px;
+    color: white;
+    font-size: 15px ;
+    text-align: center;
+
+    }
+
 
 .boximage2 {
     margin-top: 20px;
@@ -84,6 +117,10 @@ img.logo {
     background-size: 331px;
     background-position: center;
     background-repeat: no-repeat;
+    }
+
+.boxpiccolo2 {
+
     }
 .boximage3 {
     margin-top: 20px;
@@ -95,7 +132,112 @@ img.logo {
     background-repeat: no-repeat;
     }
     
-    
+.boxpiccolo3 {
+
+    }
 .boximage1:hover {
     background-image: url(img/1b.webp);
     }
+
+
+.boximage2:hover {
+    background-image: url(img/2b.webp);
+    }  
+    
+.boximage3:hover {
+    background-image: url(img/3b.webp);
+    }
+
+
+
+
+
+
+
+.boxmain2 {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;}
+          
+.box2image1 {
+    margin-top: 20px;
+    width: 32%;
+    height: 469px;
+    background-image: url(img/4.webp);
+    background-size: 331px;
+    background-position: center;
+    background-repeat: no-repeat;}
+    
+    .box2image2 {
+    margin-top: 20px;
+    width: 32%;
+    height: 469px;
+    background-image: url(img/5.webp);
+    background-size: 331px;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+    .box2image3 {
+    margin-top: 20px;
+    width: 32%;
+    height: 469px;
+    background-image: url(img/6.webp);
+    background-size: 331px;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+
+    .boxsostenibilità2 { 
+    
+        padding: 3px 4px 3px 4px;
+        width: 90px;
+        height: 15px;
+        background-color: green;
+        z-index: 1;
+        display: inline;
+        position:relative;
+        left: 29px;
+        top: 435px;
+        color: white;
+        font-size: 15px ;
+        text-align: center;}
+        
+        
+.box2image1:hover {
+    background-image: url(img/4b.webp);}
+    
+    
+.box2image2:hover {
+    background-image: url(img/5b.webp);}  
+        
+.box2image3:hover {
+    background-image: url(img/6b.webp);}
+    
+        
+.menu2 {
+    background-color:#1a1a1a;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    width: auto;} 
+.boxmenu2 { 
+    position: relative;
+    top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    color: white;
+    height: 60px;}
+
+.info2 {
+    width: 115%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;}
