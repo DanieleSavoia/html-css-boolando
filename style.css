@@ -233,20 +233,20 @@ img.logo {
     background-repeat: no-repeat;}
 
 
-    .boxsostenibilità2 { 
+.boxsostenibilità2 { 
     
-        padding: 3px 4px 3px 4px;
-        width: 90px;
-        height: 15px;
-        background-color: green;
-        z-index: 1;
-        display: inline;
-        position:relative;
-        left: 29px;
-        top: 385px;
-        color: white;
-        font-size: 15px ;
-        text-align: center;}
+    padding: 3px 4px 3px 4px;
+    width: 90px;
+    height: 15px;
+    background-color: green;
+    z-index: 1;
+    display: inline;
+    position:relative;
+    left: 29px;
+    top: 385px;
+    color: white;
+    font-size: 15px ;
+    text-align: center;}
         
         
 .box2image1:hover {
@@ -269,7 +269,7 @@ img.logo {
 .boxmenu2 { 
     position: relative;
     top: 10px;
-    width: 76%;
+    width: 7%;
     display: flex;
     justify-content: space-between;
     margin: auto;
